@@ -9,48 +9,49 @@
 // this anonymous function, and not the global scope of the browser.
 //
 // From more information see:
+// http://jsfiddle.net/VBJ9h/319/
 // https://github.com/ni/webvi-examples
 // https://developer.mozilla.org/en-US/docs/Web/API/Window
 
-	var fileText ="";
-	var fileRead = false;	
-	var inputElementName = "myFile"; 
+var fileText = "";
+var fileRead = false;
+var inputElementName = "myFile";
 
 (function () {
-    // Use strict prevents silent and common JavaScript errors.
-    'use strict';		
-	
+	// Use strict prevents silent and common JavaScript errors.
+	'use strict';
+
 	window.OpenFileWebVI = function () {
 		var inputButton = document.getElementById(inputElementName);
-		 inputButton.click();
-		 inputButton.onchange = function (){
+		inputButton.click();
+		inputButton.onchange = function () {
 			window.LoadFile();
 		};
-	}	
-	
+	}
+
 	window.LoadFile = function () {
 		var myFile = document.getElementById(inputElementName).files[0];
 		var reader = new FileReader();
-		
+
 		reader.addEventListener('load', function (e) {
-		  fileRead = false;
-		  fileText = e.target.result;
+			fileRead = false;
+			fileText = e.target.result;
 		});
-		
+
 		reader.readAsBinaryString(myFile);
-		reader.onload = function(e){
+		reader.onload = function (e) {
 			fileRead = true;
 		};
 	}
-	
-	window.CheckIfDone = function (){
+
+	window.CheckIfDone = function () {
 		return fileRead;
 	}
-	
-	window.ReadText = function (){
+
+	window.ReadText = function () {
 		fileRead = false;
 		return fileText;
 	}
-	
+
 }());
 
