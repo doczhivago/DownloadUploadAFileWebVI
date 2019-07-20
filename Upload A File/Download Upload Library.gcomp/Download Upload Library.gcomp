@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="01E5B324B9DE7441C166D35B3B3EF4678134076E2308E74FCE5E39EA7C01ABCCF4F9A8FFBE5DFDC470B7B0C6ADBB9C2626CBD8619AA262FE6B8F0F713FCAC877" Timestamp="1D5308AE105A702" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A9C1095B5CF4281471757F26F74B3511D932AC20E704AB05657C73BBF8D0FC78E0208AE4EB53344B3811EC6339B4B5CD8F0D7FDFF426A19F399962847D893C5C" Timestamp="1D53EA94E0BBD62" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50441" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50441" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50441" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50441" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.1.50441" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="e3ebcb8b5f4147348a2ec05c3d338848" RootNamespaceId="592e21fd759a4d0a85f8dda5c5206b7a" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="ecce28b8c681496dae1d7a8f1549da22" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -16,7 +16,6 @@
 		<CompilerSymbolTable Id="e3cdb554d5454a008effe35b73b648e6" xmlns="http://www.ni.com/PlatformFramework" />
 		<ComponentConfiguration Id="5d5b4cb2ee8641e7a07736a0655d90fc" Name="Configuration1">
 			<CompilerSymbolTable Id="44f082bec2aa42378321b82b6d7e4298" xmlns="http://www.ni.com/PlatformFramework" />
-			<ComponentItemProperties AssociatedEnvoyId="cc9181a84b4e42a9bb48dfabb6e81c09" Exported="True" Id="552732f2e94a46d3bc8f4648f9cb7562" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="69bb88a82434583ab5eb7a8c9e08406" Id="aa487f31463942a8af691ca53cc34776" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="154bd26ec3b24789907c4faf678cc403" Id="fef9c8d018ca4218a6b692c330075990" />
 			<ComponentItemProperties AssociatedEnvoyId="480353360d5c4a258a5423e3b93e6600" Exported="True" Id="371677d576314484809352d8cbdd4eb0" />
