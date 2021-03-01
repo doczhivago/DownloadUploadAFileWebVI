@@ -1,3 +1,9 @@
+**Note**: The [File for WebVI](https://forums.ni.com/t5/Example-Code/File-for-WebVI/ta-p/4129229) library is a file handling library for WebVIs that supports uploading and downloading of binary and text files, webcam image capturing, base64 encoding / decoding, etc.
+
+New projects should consider using the File for WebVI library instead.
+
+---
+
 # DownloadUploadAFileWebVI
 Library to upload or download a text file to and from a LabVIEW NXG WebVI. 
 
